@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LoginDataStore</string>
+    <string name="masukkan_username">Insert Username</string>
+    <string name="masukkan_password">Insert Katasandi</string>
+    <string name="login">Login</string>
+    <string name="btnlogin">Login</string>
+    <string name="belum_memiliki_akun_register">>Don\\\'t Have Any Account?, Resgister</string>
+    <string name="daftar">resgister</string>
+    <string name="masukkan_email">Insert Email</string>
+    <string name="selamat_datang">welcome</string>
+    <string name="judul">title</string>
+    <string name="rilis">Release</string>
+    <string name="reting">Rating</string>
+    <string name="popularitas">Populariti</string>
+    <string name="detail">description</string>
+    <string name="profil">Profile</string>
+    <string name="masukkan_nama">insert your name</string>
+    <string name="keluar">Logout</string>
+    <string name="ubah">logout</string>
+    <string name="favorite">change</string>
+    <string name="indonesia">Indonesian</string>
+    <string name="inggris">Indonesian</string>
+</resources>
