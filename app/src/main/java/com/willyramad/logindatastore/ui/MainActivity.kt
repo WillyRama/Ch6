@@ -33,13 +33,13 @@ class MainActivity : AppCompatActivity() {
         binding.btnRegis.setOnClickListener {
             startActivity(Intent(this, RegisterActivity::class.java))
         }
-        binding.btnIndo.setOnClickListener {
-            setLocale("id")
-        }
-
-        binding.btning.setOnClickListener {
-            setLocale("en")
-        }
+//        binding.btnIndo.setOnClickListener {
+//            setLocale("id")
+//        }
+//
+//        binding.btning.setOnClickListener {
+//            setLocale("en")
+//        }
 
         binding.btnLogin.setOnClickListener {
             val edUser = binding.user.text.toString()
@@ -57,13 +57,13 @@ class MainActivity : AppCompatActivity() {
             }
         }
     }
-    fun setLocale(lang: String?) {
-        val myLocale = Locale(lang)
-        val res = resources
-        val conf = res.configuration
-        conf.locale = myLocale
-        res.updateConfiguration(conf, res.displayMetrics)
-        startActivity(Intent(this, MainActivity::class.java))
-        finish()
-    }
+//    fun setLocale(lang: String?) {
+//        val myLocale = Locale(lang)
+//        val res = resources
+//        val conf = res.configuration
+//        conf.locale = myLocale
+//        res.updateConfiguration(conf, res.displayMetrics)
+//        startActivity(Intent(this, MainActivity::class.java))
+//        finish()
+//    }
 }
